@@ -1395,9 +1395,9 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
-  m_AgentRb: {fileID: 0}
-  debugText: {fileID: 0}
+  MaxStep: 15000
+  m_AgentRb: {fileID: 1034588332}
+  debugText: {fileID: 1904686597}
 --- !u!114 &1034588330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,7 +1566,7 @@ Transform:
   - {fileID: 627416818}
   - {fileID: 1379097130}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1001 &1103703123
 PrefabInstance:

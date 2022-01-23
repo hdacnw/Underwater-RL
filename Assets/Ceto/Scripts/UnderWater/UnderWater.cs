@@ -147,8 +147,9 @@ namespace Ceto
         /// <summary>
         /// Modify the inscatter when below the mesh looking up.
         /// </summary>
-		public InscatterModifier belowInscatterModifier 
-			= new InscatterModifier(60.0f, 1.0f, new Color32(7, 51, 77, 255), INSCATTER_MODE.EXP);
+        public static float scale = 60.0f;
+        public InscatterModifier belowInscatterModifier 
+			= new InscatterModifier(scale, 1.0f, new Color32(7, 51, 77, 255), INSCATTER_MODE.EXP);
 
         /// <summary>
         /// Modifies how the caustics are applied.

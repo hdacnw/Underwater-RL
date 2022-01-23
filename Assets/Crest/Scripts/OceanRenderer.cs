@@ -1155,7 +1155,7 @@ namespace Crest
 
             if (isUnderwaterActive)
             {
-                definitelyUnderwater = ViewerHeightAboveWater < -5f;
+                definitelyUnderwater = ViewerHeightAboveWater < -0.5f;
                 var density = UnderwaterDepthFogDensity = _material.GetVector("_DepthFogDensity") * UnderwaterRenderer.Instance.DepthFogDensityFactor;
                 var minimumFogDensity = Mathf.Min(Mathf.Min(density.x, density.y), density.z);
                 var underwaterCullLimit = Mathf.Clamp(_underwaterCullLimit, UNDERWATER_CULL_LIMIT_MINIMUM, UNDERWATER_CULL_LIMIT_MAXIMUM);
