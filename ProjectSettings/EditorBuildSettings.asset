@@ -23,7 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Ceto/DemoScene/Test3Scene.unity
     guid: 520bf52b2a6b46444a13985c18553d79
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ceto/DemoScene/Test5Scene.unity
     guid: 242c294ff254cecff9f4869b0aa22f24
+  - enabled: 1
+    path: Assets/Ceto/DemoScene/Test6Scene.unity
+    guid: 19b769e0dc4b5b75d8683f869dc3798d
   m_configObjects: {}
